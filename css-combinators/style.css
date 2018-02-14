@@ -1,0 +1,40 @@
+/* CSS Combinators */
+
+/* 
+    Descendent Selectors - space 
+    The descendant selector matches all elements that are descendants of a specified element.
+    syntax: <selector1> space <selector2>{}
+*/
+
+.descendent p{
+    background-color: #BADA55;
+}
+/* 
+    Child Selector - >
+    matches all the immediate children of the specified element
+*/
+
+.child>p{
+    background-color: #333;
+}
+
+/* 
+    Adjacent Sibling Selector
+    matches the immediate following sibling element
+*/
+
+.adjacent+p{
+    background-color: rgb(76, 92, 230);
+}
+
+/* 
+    General Sibling Selector
+    matches all the immediate following sibling elements
+*/
+
+.general ~ p{
+    background-color: rebeccapurple;
+}
+
+
+

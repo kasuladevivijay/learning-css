@@ -1,0 +1,63 @@
+/* CSS gradients
+    background: linear-gradient(direction, color-stop1, color-stop2, ...);
+    background: linear-gradient(angle, color-stop1, color-stop2);
+    background: repeating-linear-gradient(angle, color-stop1, color-stop2);
+    background: radial-gradient(shape size at position, start-color, ..., last-color);
+*/
+#grid1{
+    height: 100px;
+    background: linear-gradient(red,yellowgreen)
+}
+
+#grid2{
+    height: 100px;
+    background: linear-gradient(to right, red, yellowgreen)
+}
+
+#grid3{
+    height: 100px;
+    background: linear-gradient(to bottom right, red, yellow)
+}
+
+#grid4{
+    height: 100px;
+    background: linear-gradient(-90deg, red, yellow)
+}
+
+#grid5{
+    height: 100px;
+    background: linear-gradient( to right, red, yellow, green, purple)
+}
+
+#grid6{
+    height: 150px;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.8))
+}
+
+#grid7{
+    height: 200px;
+    background:repeating-linear-gradient(red 10%, yellow 20%)
+}
+
+#grid8{
+    height: 100px;
+    background: radial-gradient(circle, red 5%, blue 10%, yellow 20%, green)
+}
+
+/* 
+The size parameter defines the size of the gradient. It can take four values:
+
+closest-side
+farthest-side
+closest-corner
+farthest-corner
+
+ex: 
+#grad1 {
+  background: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+}
+
+#grad2 {
+  background: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+}
+*/
